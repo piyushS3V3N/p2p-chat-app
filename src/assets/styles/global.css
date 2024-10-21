@@ -1,0 +1,84 @@
+/* src/assets/styles/global.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif; /* Or any other font you prefer */
+  background-color: #1a1a1a; /* Dark background */
+  color: #33ff33; /* Green text */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #33ff33; /* Green headers */
+}
+
+a {
+  color: #33ff33; /* Green links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+button {
+  background-color: #33ff33; /* Green buttons */
+  color: #1a1a1a; /* Dark text for buttons */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #29cc29; /* Slightly lighter green on hover */
+}
+
+input,
+textarea {
+  background-color: #333; /* Dark input backgrounds */
+  color: #33ff33; /* Green text in inputs */
+  border: 1px solid #33ff33; /* Green border */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%; /* Make inputs full width */
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa; /* Light grey placeholder text */
+}
+
+.chat-messages {
+  list-style-type: none; /* Remove list styles */
+  padding: 0; /* Remove padding */
+}
+
+.message {
+  display: flex;
+  align-items: flex-start; /* Align message items */
+  margin-bottom: 10px; /* Space between messages */
+}
+
+.pfp {
+  width: 40px; /* Size of the profile picture */
+  height: 40px; /* Size of the profile picture */
+  border-radius: 50%; /* Circular profile picture */
+  margin-right: 10px; /* Space between profile pic and message */
+}
+
+.username {
+  font-weight: bold; /* Bold username */
+  color: #33ff33; /* Green text for username */
+}
+
+.text {
+  margin: 0; /* Reset margin for message text */
+}
+
+/* Add any additional global styles here */
